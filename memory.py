@@ -73,11 +73,8 @@ def draw_grid():
     turtle.hideturtle()  # Hide the turtle cursor after drawing
 
 # Function to draw a single card
-# Function to draw a single card
 def draw_card(position, value, face_down=True):
-    print("drawing card at position", position)
     x, y = get_card_coordinates(position)
-    print("drawing card", position, "at", x, y)
     turtle.goto(x, y)
     turtle.pendown()
     turtle.fillcolor('white' if face_down else 'lightblue')
