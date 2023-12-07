@@ -18,6 +18,7 @@ def init_game():
     global cards
     num_pairs = NUM_CARDS // 2
     card_values = list(range(1, num_pairs + 1)) * 2  # Create pairs
+    random.shuffle(card_values)  # Shuffle the card values to randomize them
     cards = [{'value': val, 'matched': False, 'position': i} for i, val in enumerate(card_values)]
     print(cards)
 
@@ -167,8 +168,12 @@ def check_match():
     canSelect = True    
 
 def game_over():
-    # You can add any end-of-game logic here
-    print("Game Over! You found all the matches.")
+    # Display a game over message on the screen
+    turtle.penup()
+    turtle.goto(0, 0)  # Position the turtle at the center of the screen
+    turtle.color('black')  # Set the text color
+    turtle.write("Game Over! You found all the matches.", align="center", font=("Arial", 19, "normal"))
+    turtle.hideturtle()  # Hide the turtle cursor after writing
 
 
 def play_game():
