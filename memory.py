@@ -86,7 +86,7 @@ def draw_card(position, value, face_down=True):
     turtle.penup()
 
     if not face_down:
-        # Move to the center of the card to write the number
+        # Move to the center of the card to write the number.
         turtle.goto(x + CARD_SIZE / 2, y + CARD_SIZE / 2 - 15)  # Adjust as needed
         turtle.write(value, align="center", font=("Arial", 18, "normal"))
 
