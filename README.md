@@ -2,9 +2,8 @@
 ## Description
 This Python program is a simple memory matching game created using the Turtle graphics library. Players flip over cards to find pairs of matching numbers. The game tracks which cards have been matched and ends when all pairs are found.
 
-[![Now in Android: 55]        
-(https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg)]
-(https://www.loom.com/share/f1ff9502343a48f9bfc9371c575f37b4?sid=0f05ffd9-7524-478f-ad9d-bca321958943 "Now in Android: 55")
+
+https://www.loom.com/share/f1ff9502343a48f9bfc9371c575f37b4?sid=0f05ffd9-7524-478f-ad9d-bca321958943
 
 ## Features
 Dynamic Grid Layout: The game generates a grid of cards based on predefined settings.
